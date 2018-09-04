@@ -1,0 +1,29 @@
+body {
+  padding: 10px;
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+  margin: 10px;
+  width: 200px;
+  border: 1px solid #000;
+  min-height: 100px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.box header {
+  display: block;
+  border-bottom: 1px solid #000;
+}
+
+.box-bg {
+  background: lime;
+}
+
+.header-special {
+  font-weight: bold;
+  background: yellow;
+}
+/*# sourceMappingURL=style.prefixed.css.map */
