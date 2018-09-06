@@ -56,7 +56,7 @@ var data = [
 		
 		// Następnie w treści nagłówka wpiszemy id boksa (nie nagłówka!)
 		
-		boxHeader.innerHTML = 'Box id:' + boxes[i].id;
+		boxHeader.innerHTML = 'Box id:' + data[i].id;
 		
 		// I jeszcze pozostaje nam przypisać funkcję headerClickCallback do eventu click na tym boksie:
 		
