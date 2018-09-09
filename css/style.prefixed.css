@@ -11,6 +11,7 @@ body {
   min-height: 100px;
   text-align: center;
   vertical-align: top;
+  opacity: 0.7;
 }
 
 .box header {
@@ -18,12 +19,16 @@ body {
   border-bottom: 1px solid #000;
 }
 
-.box-bg {
+.highlighted {
   background: lime;
 }
 
-.header-special {
+.special-header {
   font-weight: bold;
   background: yellow;
+}
+
+.important {
+  opacity: 1;
 }
 /*# sourceMappingURL=style.prefixed.css.map */
